@@ -17,6 +17,9 @@ dependencies {
     // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
     testImplementation 'io.github.bonigarcia:webdrivermanager:5.5.3'
 
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation 'org.testng:testng:7.8.0'
+
 }
 
 test {

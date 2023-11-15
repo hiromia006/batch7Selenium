@@ -45,9 +45,7 @@ public class LocatorsTest {
         driver.findElement(By.xpath("//button[@id='react-burger-menu-btn']")).click();
         Thread.sleep(1500);
 
-
         driver.quit();
-
 
     }
 }

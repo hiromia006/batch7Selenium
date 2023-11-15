@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BeforeClassTest extends BaseBeforeClassTest {
+public class ClassTest extends BaseClassTest {
     @Test(priority = 0)
     public void verifySourceDemoTittleShouldShould() {
         Assert.assertEquals(driver.getTitle(), "Swag Labs");
